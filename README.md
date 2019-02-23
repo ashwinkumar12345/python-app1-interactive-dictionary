@@ -2,7 +2,7 @@
 
 Implements the following features:
 
-1. Loads the dictionary dataset into the "data" variable using the *json.load* method. Accepts a word from the user and returns the definition from the database if it exists.
+1. Load the dictionary dataset into the "data" variable using the *json.load* method. Accept a word from the user and returns the definition from the database if it exists.
 
 ```python
 import json
