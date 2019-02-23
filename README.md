@@ -75,6 +75,6 @@ else:
     print(output)
 ```
 
-# Future Enhancements
+### Future Enhancements
 
 You can improve this app by creating a web UI frontend and by storing the dictionary dataset in a database. 
