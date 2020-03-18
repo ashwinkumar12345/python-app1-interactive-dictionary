@@ -2,7 +2,7 @@
 
 Implements the following features:
 
-1. Load the dictionary dataset into the "data" variable using the *json.load* method. Accept a word from the user and returns the definition from the database if it exists.
+1. Load the dictionary dataset into the `data` variable using the `json.load` method. Accept a word from the user and return it's definition from the database, if it exists.
 
 ```python
 import json
@@ -18,7 +18,7 @@ word = input("Enter a word: ")
 print(find(word))
 ```
 
-2. Account for case sensitivity. Convert the word entered by the user to lowercase using the *.lower()* method.
+2. Account for case sensitivity. Convert the word entered by the user to lowercase using the `.lower()` method.
 
 ```python
 import json
@@ -35,7 +35,7 @@ word = input("Enter a word: ")
 print(find(word))
 ```
 
-3. Account for word misspellings using the difflib library. You can get a complete list of Python standard libraries from https://docs.python.org/3/library/. The difflib library library implements a *get_close_match* class that accepts the word and possibilities as arguments and returns a similar word if the similarity is greater than a certain offset value.
+3. Account for word misspellings using the `difflib` library. You can get a complete list of Python standard libraries from https://docs.python.org/3/library/. The `difflib` library implements a `get_close_match` class that accepts the word and possibilities as arguments and returns a similar word, if the similarity is greater than a certain offset value.
 
 ```python
 import json
@@ -60,7 +60,7 @@ data = import.json("data.json")
 word = input("Enter a word: ")
 print(find(word))
 ```
-4. Iterate though the final definitions list. iterate through this list and output the definitions.
+4. Iterate though the final definitions list. Iterate through this list and output the definitions.
 
 ```python
 word = input("Enter a word: ")
